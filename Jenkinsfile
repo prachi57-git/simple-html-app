@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Upload the zip file to the S3 bucket
-                    sh "aws s3 cp simple-html-app.zip s3://${S3_BUCKET}/${S3_KEY}"
+                    sh "aws s3 cp simple-html-app.zip s3://webpp-code-bucket/simple-html-app.zip"
                 }
             }
         }
