@@ -6,6 +6,7 @@ pipeline {
         S3_KEY = 'simple-html-app.zip'
         APPLICATION_NAME = 'WebAppDeploy'
         DEPLOYMENT_GROUP_NAME = 'WebApp-DeploymentGroup'
+        AWS_CLI_PROFILE = 'default'
     }
 
     stages {
